@@ -1,0 +1,13 @@
+/* zerar as margens de todos os elementos da página. margens externas  e internas */
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* vamos adicionar uma imagem ao fundo do header */
+
+header{
+    background-image: url("../img/cafe13.jpg");
+    height:500px
+
+
+}
