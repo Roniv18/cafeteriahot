@@ -1,3 +1,9 @@
+/* Importtando as fontes do google */
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+
+
 /* zerar as margens de todos os elementos da página. margens externas  e internas */
 *{
     margin:0px;
@@ -6,8 +12,92 @@
 /* vamos adicionar uma imagem ao fundo do header */
 
 header{
-    background-image: url("../img/cafe13.jpg");
-    height:500px
+    background-image: url("../img/fundo5.jpg");
+    /* Ajustar o tamanho da imagem em 10% de largura */
+    background-size:100% ;
+    /* Ajustar a posição da imagem em x e y */
+    background-position: 0px -300px;
+    height:500px;
+    padding: 30px;
+   
 
 
+}
+nav{
+    /* tornando o conteudo da nav flexível. Isso permite que os elementos fiquem um ao lado do outro */
+    display: flex;
+    /* Alinhamento vertical dos elementos que estão no nav */
+  align-items: center;
+} 
+h1{
+    /* mudar a cor da letra */
+    color:white ;
+    /* Aterar o tipo de letra */
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 30pt;
+    /* Alterar o tamanho da caixa(alta ou baixa) */
+    text-transform: capitalize;
+    margin-right: 200px;
+}
+ul{
+    /* retirar o marcador da lista */
+    list-style: none;
+}
+header ul li{
+    /* Vamos ajustar a disposição(display) dos itens da listas em formato de linha */
+    display:inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+header ul li:hover{
+    background-color:#b71c1c;
+
+}
+header ul li a{
+    color:white;
+    /* vamos retirar p underline(sublinhado */
+    text-decoration: nome;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h2{
+    padding: 30px;
+    background-color: rgba(255, 0, 0, 0.05);
+    color:white;
+    text-align: center;
+    margin-top: 200px;
+    font-family: "Lobster", sans-serif;
+    font-size: 20pt;
+    font-weight: 100;
+    text-shadow: 5px 10px 5px black;
+}
+header p{
+    
+    font-family: "Cactus Classical Serif", serif;
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-shadow: 0px 0px 5px black;
+
+}
+footer{
+    background-color:#4555a6;
+    display:flex;
+    justify-content:space-between;
+    padding: 50px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    font-family: arial;
+    font-size: 15px;
+}
+    footer #rede li{
+        /* Colocar as redes em linha */
+        display: inline-block;
+        margin-top: 10px;
+
+    }
 }

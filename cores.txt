@@ -1,0 +1,12 @@
+Para aplicar cores nos seus arquivos html, você pode usar 6 opções de misturas de cores. São elas: cores em inglês, cores em hexadecimal; cores em RGB(Red, Green, Blue); cores em
+RGBA(Red,Green, Blue, Alpha); cores em HSL(hill, luminosity, saturation, luminosity, Alpha);
+Cores em inglês, você escreve o nome da cor em inglês. O problema de utilizar este tipo de cor é a quantidade de cores que é pequena.
+Cores hexadecimal(hexa 6 decimal 10), portanto, estamos falando cores que são composta com caracteres que variam de 0 até F, somando 16 caracteres.
+As cores em hexadecima, ão posicionada em formato RGB(Red, Green e Blue), sendo criada com 6 ou 39 caracteres, precedido do caractere #(hastag). Vermelho #FF0000
+ou #HF00
+#FF  00    00   ou #F   0     0
+Red  Green Blue ou Red  Green Blue
+Cores em RGB, são aplicadas usando uma variação numérica entre 0 e 255, onde 0 não tem luz(não tem cor|preto) e 255(mãximo de luz|branco). Aplicação fica assim:rgb(-,-,-,)->
+Cores em HSL, para aplicar você deve usar o termo hsl e lembrar que H-> Matiz, ou seja, a variação de cor. S-> Saturação, ou seja, a quantidade da cor escolhida na matiz. Esta quantidade pode ser muito pouco. E, por fim o L-> luminosidade de 0 até 100% ou pode ser mantida em valores decimais variando de 0 até 240.
+*.txt
+.gitignore
