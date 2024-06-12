@@ -8,6 +8,10 @@
 *{
     margin:0px;
     padding: 0px;
+
+}
+html{
+    scroll-behavior: smooth;
 }
 /* vamos adicionar uma imagem ao fundo do header */
 
@@ -174,3 +178,47 @@ main #categoriacardapio{
 
 
     }
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+.item{
+    width: 32%;
+    display: flex ;
+    margin: 10px;
+      
+}
+.item img{
+
+    width: 150px;
+    height: 150px; ;
+    border-radius: 10px;
+}
+.item div p{
+    font-family: arial;
+    margin: 5px;
+    font-size: 10pt;
+    line-height: 15pt;
+
+}
+
+main p{
+    font-family: arial;
+    font-size: 10pt;
+    line-height: 20pt;
+    margin-left: 50px;
+    margin: right 50px;
+    margin-bottom: 20px;
+
+}
+
+#video{
+    text-align: center;
+}
+#video iframe{
+    width: 80%;
+    height: 400px;
+    margin: 50px;
+}
